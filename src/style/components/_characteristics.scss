@@ -1,29 +1,3 @@
-$types-colors: (
-  676155: #676155,
-  D9D4D0: #D9D4D0,
-  5B5B5B: #5B5B5B,
-  A5988D: #A5988D,
-  BFBEBC: #BFBEBC,
-  DBCB9B: #DBCB9B,
-  78676D: #78676D,
-  6B6855: #6B6855,
-  645F5B: #645F5B,
-  C9BCAC: #C9BCAC,
-  AD9C58: #AD9C58,
-  807F7A: #807F7A,
-  AF0E0E: #AF0E0E,
-  CCBEB3: #CCBEB3,
-  D5D6D8: #D5D6D8,
-  293541: #293541,
-  A6B4BF: #A6B4BF,
-  FFFFFF: #FFFFFF,
-  A79B8E: #A79B8E,
-  C8C9C4: #C8C9C4,
-  5B504A: #5B504A,
-  7F8593: #7F8593
-);
-
-
 .characteristics {
   padding: rem(16 25 11);
   @media (max-width: 600px) {
@@ -55,25 +29,7 @@ $types-colors: (
 }
 
 .characteristics__types-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
   margin-bottom: rem(23);
-}
-
-.characteristics__type {
-  width: rem(60);
-  height: rem(60);
-  border-radius: 50%;
-  @each $type, $color in $types-colors {
-    &_color-#{$type} {
-      background: $color;
-    }
-  }
-  &_color-FFFFFF {
-    border: 1px solid $main-font-color;
-  }
 }
 
 .characteristics__text {

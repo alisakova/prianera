@@ -1,7 +1,7 @@
 .call-order {
   margin-bottom: rem(80);
   .title {
-    margin-bottom: 0;
+    margin-bottom: rem(80);
     @media (max-width: 540px) {
       margin-bottom: 71px;
       border-bottom: none;
@@ -27,7 +27,7 @@
 }
 
 .call-order__form {
-  background: rgba(238, 52, 37, 0.07);
+  background: rgba(7, 187, 240, 0.2);
   padding: rem(40 18 40 35);
   max-width: none;
   flex-basis: 100%;

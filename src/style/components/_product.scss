@@ -72,7 +72,7 @@
   img {
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
   }
   @media (max-width: 600px) {
     max-width: none;
@@ -87,9 +87,9 @@
   display: inline-flex;
   align-items: center;
   justify-content: flex-start;
-  border: 1px solid $red;
+  border: 1px solid $main-color;
   padding: rem(4 15);
-  color: $red;
+  color: $main-color;
   font-size: rem(18);
   margin: {
     left: rem(71);

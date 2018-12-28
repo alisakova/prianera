@@ -64,11 +64,8 @@
 }
 
 .reviews-slider__text {
-  .italic {
-    font: {
-      style: italic;
-      weight: 400;
-    }
+  .bold {
+    font-weight: 400;
   }
   @media (max-width: 540px) {
     box-shadow: 4px 4px 10px $border-color;

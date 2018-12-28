@@ -28,6 +28,12 @@
       padding-top: 0;
     }
   }
+  &_logo {
+    padding-top: rem(12);
+    @media (max-width: 540px) {
+      padding-top: 0;
+    }
+  }
   @media (max-width: 540px) {
     &_logo {
       order: 1;

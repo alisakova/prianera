@@ -1,11 +1,13 @@
 .features-info {
   margin-bottom: rem(118);
+  color: #fff;
   &_mobile {
     display: none;
     @media (max-width: 540px) {
       display: block;
       padding: 40px 20px 60px 35px;
-      margin-bottom: 0;
+      margin-bottom: 5.71429rem;
+      background: rgba(7, 187, 240, 0.6);
     }
   }
 }
@@ -36,9 +38,9 @@
       background-image: url('../img/size-icon.svg');
     }
   }
-  &_design-icon {
+  &_showroom {
     &:after {
-      background-image: url('../img/design-icon.svg');
+      background-image: url('../img/showroom.svg');
     }
   }
   &_garant-icon {

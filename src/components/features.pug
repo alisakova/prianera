@@ -1,11 +1,11 @@
 -
   var features = [
-    "Упаковка каждого элемента",
-    "Провека каждой детали",
-    "Гарантия кухни 10 лет",
+    "Качественная натуральная кожа",
+    "Контроль строчек и&nbsp;швов",
+    "Ручная работа и&nbsp;технологии",
     "100% Италия",
-    "Фасады 22 мм",
-    "Бесшумные петли"
+    "Авторские коллекции от дизайнеров",
+    "Эргономика и эстетика"
   ]
 
 section(id="features").features
@@ -16,6 +16,5 @@ section(id="features").features
         .features__item
           .features__icon
             img(src="img/features/feature-" + index + ".svg", alt="Преимущество")
-          .features__descr= item
-  a(href="#catalog").mouse-btn._scroll-btn
+          .features__descr!= item
           
