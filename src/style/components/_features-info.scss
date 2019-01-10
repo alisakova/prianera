@@ -6,8 +6,8 @@
     @media (max-width: 540px) {
       display: block;
       padding: 40px 20px 60px 35px;
-      margin-bottom: 5.71429rem;
-      background: rgba(7, 187, 240, 0.6);
+      margin-bottom: 0;
+      color: $main-font-color;
     }
   }
 }
@@ -17,7 +17,7 @@
   position: relative;
   font-weight: 600;
   &:after {
-    content: '';
+    content: "";
     position: absolute;
     width: rem(80);
     height: rem(47);
@@ -35,17 +35,26 @@
   }
   &_size-icon {
     &:after {
-      background-image: url('../img/size-icon.svg');
+      background-image: url("../img/size-icon.svg");
+      @media (max-width: 540px) {
+        background-image: url("../img/size-icon-mobile.svg");
+      }
     }
   }
   &_showroom {
     &:after {
-      background-image: url('../img/showroom.svg');
+      background-image: url("../img/showroom.svg");
+      @media (max-width: 540px) {
+        background-image: url("../img/showroom-mobile.svg");
+      }
     }
   }
   &_garant-icon {
     &:after {
-      background-image: url('../img/garant-icon.svg');
+      background-image: url("../img/garant-icon.svg");
+      @media (max-width: 540px) {
+        background-image: url("../img/garant-icon-mobile.svg");
+      }
     }
   }
   &:not(:last-child) {

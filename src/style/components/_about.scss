@@ -2,7 +2,7 @@
   border-bottom: 1px solid $border-color;
   margin-bottom: rem(62);
   .title {
-    margin-bottom: 0;
+    margin-bottom: 30px;
   }
   p {
     font-size: rem(14);
@@ -12,6 +12,12 @@
       @media (max-width: 600px) {
         margin-bottom: 15px;
       }
+    }
+  }
+  @media (max-width: 540px) {
+    border-bottom: none;
+    .container {
+      padding: 0;
     }
   }
 }
@@ -28,6 +34,14 @@
 .about__text {
   padding: rem(14 0 20);
   margin-right: rem(45);
+  @media (max-width: 540px) {
+    margin: 0;
+    padding: {
+      top: 42px;
+      left: rem(20);
+      right: rem(20);
+    }
+  }
 }
 
 .about__img {

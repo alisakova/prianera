@@ -1,10 +1,12 @@
 .contacts {
-  margin-bottom: rem(22);
+  margin-bottom: rem(46);
   border-bottom: 1px solid $border-color;
   .title {
     margin-bottom: 0;
   }
   @media (max-width: 540px) {
+    margin-bottom: 0;
+    border-bottom: none;
     .container {
       padding: 0;
     }
@@ -26,6 +28,7 @@
 .contacts__container {
   position: relative;
   background: url("../img/contacts-img.jpg") no-repeat center center;
+  background-size: cover;
   @media (max-width: 540px) {
     background-position: left center;
   }
