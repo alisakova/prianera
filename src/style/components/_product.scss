@@ -94,7 +94,7 @@
 .product__price-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   // margin: {
   //   left: rem(71);
   //   bottom: rem(15);
@@ -109,21 +109,6 @@
   @media (max-width: 540px) {
     padding: 0 1.42857rem;
   }
-}
-
-.product__price-item {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  border: 1px solid $main-color;
-  padding: rem(4 15);
-}
-
-.product__price {
-  margin-right: rem(13);
-  color: $main-color;
-  font-size: rem(18);
-  white-space: nowrap;
 }
 
 .product__show-more {

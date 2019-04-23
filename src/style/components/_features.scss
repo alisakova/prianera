@@ -41,9 +41,14 @@
   justify-content: center;
   margin-bottom: rem(34);
   height: rem(80);
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
 }
 
 .features__descr {
-  max-width: rem(150);
+  max-width: rem(200);
   text-align: center;
 }
